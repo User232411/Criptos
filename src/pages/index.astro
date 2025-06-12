@@ -1,11 +1,21 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import CryptoList from '../components/CryptoList.astro';
+import '../styles/global.css';
 ---
 
-<Layout>
-	<Welcome />
-</Layout>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Top 100 Criptomonedas 2025 - Precios y Market Cap Actualizado</title>
+    <meta name="description" content="Consulta el listado actualizado de las 100 principales criptomonedas en 2025 con precios, capitalización de mercado y cambios diarios." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Top 100 Criptomonedas en 2025</h1>
+      <p>Conoce los precios, market cap y variación diaria de las criptomonedas más importantes del mercado.</p>
+      <CryptoList />
+    </div>
+  </body>
+</html>
+
