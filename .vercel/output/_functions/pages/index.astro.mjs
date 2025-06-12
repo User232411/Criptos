@@ -1,4 +1,4 @@
-import { c as createComponent, m as maybeRenderHead, a as addAttribute, r as renderTemplate, b as renderHead, d as renderComponent } from '../chunks/astro/server_Dd83b5d6.mjs';
+import { c as createComponent, m as maybeRenderHead, a as addAttribute, r as renderTemplate, b as renderComponent, d as renderHead } from '../chunks/astro/server_BlgG3CZb.mjs';
 import 'kleur/colors';
 import 'clsx';
 /* empty css                                 */
@@ -11,8 +11,12 @@ const $$CryptoList = createComponent(async ($$result, $$props, $$slots) => {
 </td> </tr>`)} </tbody> </table>`;
 }, "C:/Users/awv24/Desktop/PagiasAdSens/PagiasAdSens/src/components/CryptoList.astro", void 0);
 
+var __freeze = Object.freeze;
+var __defProp = Object.defineProperty;
+var __template = (cooked, raw) => __freeze(__defProp(cooked, "raw", { value: __freeze(cooked.slice()) }));
+var _a;
 const $$Index = createComponent(($$result, $$props, $$slots) => {
-  return renderTemplate`<html lang="es"> <head><meta charset="UTF-8"><title>Top 100 Criptomonedas 2025 - Precios y Market Cap Actualizado</title><meta name="description" content="Consulta el listado actualizado de las 100 principales criptomonedas en 2025 con precios, capitalización de mercado y cambios diarios."><meta name="viewport" content="width=device-width, initial-scale=1.0">${renderHead()}</head> <body> <div class="container"> <h1>Top 100 Criptomonedas en 2025</h1> <p>Conoce los precios, market cap y variación diaria de las criptomonedas más importantes del mercado.</p> ${renderComponent($$result, "CryptoList", $$CryptoList, {})} </div> </body></html>`;
+  return renderTemplate(_a || (_a = __template(['<html lang="es"> <head><meta charset="UTF-8"><title>Top 100 Criptomonedas 2025 - Precios y Market Cap Actualizado</title><meta name="description" content="Consulta el listado actualizado de las 100 principales criptomonedas en 2025 con precios, capitalizaci\xF3n de mercado y cambios diarios."><meta name="viewport" content="width=device-width, initial-scale=1.0"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5535864771470788" crossorigin="anonymous"><\/script>', '</head> <body> <div class="container"> <h1>Top 100 Criptomonedas en 2025</h1> <p>Conoce los precios, market cap y variaci\xF3n diaria de las criptomonedas m\xE1s importantes del mercado.</p> ', " </div> </body></html>"])), renderHead(), renderComponent($$result, "CryptoList", $$CryptoList, {}));
 }, "C:/Users/awv24/Desktop/PagiasAdSens/PagiasAdSens/src/pages/index.astro", void 0);
 
 const $$file = "C:/Users/awv24/Desktop/PagiasAdSens/PagiasAdSens/src/pages/index.astro";
